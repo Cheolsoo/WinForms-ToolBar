@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsToolbar", "WinFormsToolbar\WinFormsToolbar.csproj", "{E6C05849-88FD-43FD-A1B0-CC07392DD74F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C05849-88FD-43FD-A1B0-CC07392DD74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C05849-88FD-43FD-A1B0-CC07392DD74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C05849-88FD-43FD-A1B0-CC07392DD74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C05849-88FD-43FD-A1B0-CC07392DD74F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F1E67FA-7DE0-4152-99D5-E7B4F1453471}
+	EndGlobalSection
+EndGlobal
