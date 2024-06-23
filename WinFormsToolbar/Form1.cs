@@ -19,6 +19,7 @@ namespace WinFormsToolbar
 
         private void label4_Click(object sender, EventArgs e)
         {
+            // 주석만 1줄 추가해봅니다. 
 
         }
     }
