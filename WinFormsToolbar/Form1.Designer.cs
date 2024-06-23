@@ -64,10 +64,11 @@
             this.ToolBarButton16});
             this.ToolBar4.ButtonSize = new System.Drawing.Size(150, 30);
             this.ToolBar4.DropDownArrows = true;
-            this.ToolBar4.Location = new System.Drawing.Point(0, 122);
+            this.ToolBar4.Location = new System.Drawing.Point(0, 121);
+            this.ToolBar4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ToolBar4.Name = "ToolBar4";
             this.ToolBar4.ShowToolTips = true;
-            this.ToolBar4.Size = new System.Drawing.Size(384, 36);
+            this.ToolBar4.Size = new System.Drawing.Size(448, 36);
             this.ToolBar4.TabIndex = 13;
             this.ToolBar4.TextAlign = System.Windows.Forms.ToolBarTextAlign.Right;
             // 
@@ -92,10 +93,11 @@
             this.ToolBarButton12});
             this.ToolBar3.ButtonSize = new System.Drawing.Size(150, 22);
             this.ToolBar3.DropDownArrows = true;
-            this.ToolBar3.Location = new System.Drawing.Point(0, 94);
+            this.ToolBar3.Location = new System.Drawing.Point(0, 93);
+            this.ToolBar3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ToolBar3.Name = "ToolBar3";
             this.ToolBar3.ShowToolTips = true;
-            this.ToolBar3.Size = new System.Drawing.Size(384, 28);
+            this.ToolBar3.Size = new System.Drawing.Size(448, 28);
             this.ToolBar3.TabIndex = 12;
             this.ToolBar3.TextAlign = System.Windows.Forms.ToolBarTextAlign.Right;
             // 
@@ -129,10 +131,11 @@
             this.ToolBarButton7});
             this.ToolBar2.ButtonSize = new System.Drawing.Size(150, 22);
             this.ToolBar2.DropDownArrows = true;
-            this.ToolBar2.Location = new System.Drawing.Point(0, 66);
+            this.ToolBar2.Location = new System.Drawing.Point(0, 65);
+            this.ToolBar2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ToolBar2.Name = "ToolBar2";
             this.ToolBar2.ShowToolTips = true;
-            this.ToolBar2.Size = new System.Drawing.Size(384, 28);
+            this.ToolBar2.Size = new System.Drawing.Size(448, 28);
             this.ToolBar2.TabIndex = 11;
             this.ToolBar2.TextAlign = System.Windows.Forms.ToolBarTextAlign.Right;
             // 
@@ -169,9 +172,10 @@
             this.ToolBarButton10});
             this.ToolBar1.DropDownArrows = true;
             this.ToolBar1.Location = new System.Drawing.Point(0, 24);
+            this.ToolBar1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ToolBar1.Name = "ToolBar1";
             this.ToolBar1.ShowToolTips = true;
-            this.ToolBar1.Size = new System.Drawing.Size(384, 42);
+            this.ToolBar1.Size = new System.Drawing.Size(448, 41);
             this.ToolBar1.TabIndex = 10;
             // 
             // ToolBarButton1
@@ -200,38 +204,42 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(124, 37);
+            this.label1.Location = new System.Drawing.Point(145, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 13);
+            this.label1.Size = new System.Drawing.Size(25, 12);
             this.label1.TabIndex = 14;
             this.label1.Text = "Flat";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(181, 72);
+            this.label2.Location = new System.Drawing.Point(211, 66);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 13);
+            this.label2.Size = new System.Drawing.Size(80, 12);
             this.label2.TabIndex = 15;
             this.label2.Text = "Text on Right";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(124, 101);
+            this.label3.Location = new System.Drawing.Point(145, 93);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 13);
+            this.label3.Size = new System.Drawing.Size(90, 12);
             this.label3.TabIndex = 16;
             this.label3.Text = "Toggle Buttons";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(94, 134);
+            this.label4.Location = new System.Drawing.Point(110, 124);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 13);
+            this.label4.Size = new System.Drawing.Size(160, 12);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Drop-Down Button";
+            this.label4.Text = "Drop-Down Button change1";
             // 
             // menuStrip1
             // 
@@ -239,7 +247,8 @@
             this.item1ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(384, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(448, 24);
             this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -249,27 +258,27 @@
             this.item2ToolStripMenuItem,
             this.item3ToolStripMenuItem});
             this.item1ToolStripMenuItem.Name = "item1ToolStripMenuItem";
-            this.item1ToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.item1ToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.item1ToolStripMenuItem.Text = "Item1";
             this.item1ToolStripMenuItem.Visible = false;
             // 
             // item2ToolStripMenuItem
             // 
             this.item2ToolStripMenuItem.Name = "item2ToolStripMenuItem";
-            this.item2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.item2ToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.item2ToolStripMenuItem.Text = "Item2";
             // 
             // item3ToolStripMenuItem
             // 
             this.item3ToolStripMenuItem.Name = "item3ToolStripMenuItem";
-            this.item3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.item3ToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
             this.item3ToolStripMenuItem.Text = "Item3";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 261);
+            this.ClientSize = new System.Drawing.Size(448, 241);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -280,6 +289,7 @@
             this.Controls.Add(this.ToolBar1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "WinFormsToolBar";
             this.menuStrip1.ResumeLayout(false);
