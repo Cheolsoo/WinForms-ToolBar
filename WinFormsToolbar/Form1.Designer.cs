@@ -239,7 +239,8 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(160, 12);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Drop-Down Button change1";
+            this.label4.Text = "Drop-Down Button change3";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // menuStrip1
             // 

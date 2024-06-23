@@ -5,3 +5,6 @@
 *.cache
 *.vsidx
 *.wsuo
+/WinFormsToolbar/bin/Debug
+/WinFormsToolbar/obj/Debug
+/.vs/WinFormsToolbar/v17
