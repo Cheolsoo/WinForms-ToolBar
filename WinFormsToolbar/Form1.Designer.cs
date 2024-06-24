@@ -239,7 +239,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 12);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Button change 24 테스트";
+            this.label4.Text = "Button change 25 테스트";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // menuStrip1
