@@ -1,7 +1,8 @@
 ﻿<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<PropertyGroup>
-		<PublishFilePath>$(MSBuildProjectDirectory)/$(PublishDir)/index.html</PublishFilePath>
+		<PublishFilePath>$(MSBuildProjectDirectory)/$(PublishDir)/public.htm</PublishFilePath>
 	</PropertyGroup>
+	
 	<ItemGroup>
 		<Tokens Include="PublisherName">
 			<ReplacementValue>$(PublisherName)</ReplacementValue>
@@ -31,7 +32,7 @@
 			<Output TaskParameter="FormattedTime" PropertyName="PublishTime" />
 		</Time>
 		<!-- Finalise the publish.htm template file and copy it to the publish location -->
-		<TemplateFile Template="Publish/index.template.html" Tokens="@(Tokens)" OutputFilename="$(PublishFilePath)" />
+		<TemplateFile Template="Publish/publish.template.html" Tokens="@(Tokens)" OutputFilename="$(PublishFilePath)" />
 		<FileUpdate Files="$(PublishFilePath)" Regex="\${PublishTime}" ReplacementText="$(PublishTime)" />
 	</Target>
 </Project>
