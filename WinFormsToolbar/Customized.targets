@@ -1,6 +1,6 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<PropertyGroup>
-		<PublishFilePath>$(MSBuildProjectDirectory)/$(PublishDir)/public.htm</PublishFilePath>
+		<PublishFilePath>$(MSBuildProjectDirectory)/$(PublishDir)/publish.htm</PublishFilePath>
 	</PropertyGroup>
 	
 	<ItemGroup>
@@ -33,7 +33,7 @@
 		</Time>
 		<!-- Finalise the publish.htm template file and copy it to the publish location -->
 		<TemplateFile Template="Publish/publish.template.html" Tokens="@(Tokens)" OutputFilename="$(PublishFilePath)" />
-		<Copy SourceFiles="$(ProjectDir)/Publish/publish.template.html" DestinationFiles="$(PublishFilePath)"/>
+		<Copy SourceFiles="$(ProjectDir)/Publish/publish.template.html" DestinationFiles="d:/publish/publish.htm"/>
 		<FileUpdate Files="$(PublishFilePath)"
 			IgnoreCase="true"
 			Multiline="true" 
