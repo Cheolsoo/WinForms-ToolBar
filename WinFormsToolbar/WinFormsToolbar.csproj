@@ -26,7 +26,7 @@
     <InstallUrl>http://test.i3366.com:8000/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>13</ApplicationRevision>
+    <ApplicationRevision>14</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -107,7 +107,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Content Include="Publish\index.template.html" />
+    <Content Include="Publish\publish.template.html" />
     <None Include="Publish.targets" />
     <None Include="WinFormsToolbar_TemporaryKey.pfx" />
   </ItemGroup>
