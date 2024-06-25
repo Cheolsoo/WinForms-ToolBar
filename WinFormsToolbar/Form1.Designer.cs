@@ -237,9 +237,9 @@
             this.label4.Location = new System.Drawing.Point(110, 124);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 12);
+            this.label4.Size = new System.Drawing.Size(108, 12);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Button 대견하다 김철수";
+            this.label4.Text = "Button 화요일 시작";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // menuStrip1
